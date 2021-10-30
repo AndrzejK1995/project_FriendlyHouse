@@ -1,0 +1,115 @@
+.section-form {
+    padding-bottom: 167px;
+}
+.form-container {
+    margin: auto;
+    padding: 0 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: HelveticaNeueCyr;
+    color: black;
+    border-radius: 20px;
+    width: 780px;
+    height: 562px;
+    background-color: #F2F0F1;
+}
+.contacts__header-orange{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF8A00;
+    padding-bottom: 30px;
+}
+.contacts__description{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #282626;
+}
+.contacts__descroption-bold-orange{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FF8A00;
+    padding-bottom: 20px;
+}
+.contact-details{
+    list-style-type: none;
+    width: 543px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 70px;
+    flex-wrap: wrap;
+}
+.contact-details__phone{
+    background: url(../images/call.png);
+    background-repeat: no-repeat;
+    flex-basis: 46%;
+    width: 24px;
+    height: 24px;
+}
+.contact-details__text {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282626;
+    margin-left: 38px;
+}
+.contact-details__email{
+    background: url(../images/email.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.form{
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #282626;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.header{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #282626;
+    padding-bottom: 24px;
+}
+
+.phone__number{
+    background: white;
+    width: 280px;
+    height: 40px;
+    border: none;
+}
+.email__adress{
+    background: white;
+    width: 280px;
+    height: 40px;
+    border: none;
+}
+.button {
+    background: url(../images/button.png) top no-repeat;
+    width: 80px;
+    height: 90px;
+    border: none;
+    float: right;
+    padding: 73px 0 0 0;
+    color: #FF8A00;
+}

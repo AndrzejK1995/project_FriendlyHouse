@@ -1,0 +1,32 @@
+.section-about {
+    margin: auto;
+    padding: 0px;
+    padding-top: 99px;
+    padding-bottom: 209px;
+    
+}
+.container-about {
+    padding-left: 126px;
+}
+.about{
+    margin: 0px;
+}
+.about__title{
+    width: 281px;
+    font-size: 40px;
+    font-family: "Comfortaa";
+    color: rgb(40, 38, 38);
+    text-align: left;
+    height: 53px;
+    margin-bottom: 48px;
+}
+.about__description{
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(40, 38, 38);
+    text-align: left;
+    margin-bottom: 40px;
+}
+.marginless {
+    margin-bottom: 0px;
+}

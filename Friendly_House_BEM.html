@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/bem_styles.css">
+        <link rel="preload" href="../Friendly_House_BEM/fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/HelveticaNeueCyr-Roman.woff" as="font" type="font/woff" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/HelveticaNeueCyr-Medium.woff" as="font" type="font/woff" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/HelveticaNeueCyr-Light.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/HelveticaNeueCyr-Light.woff" as="font" type="font/woff" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/Comfortaa-Light.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="../Friendly_House_BEM/fonts/Comfortaa-Light.woff" as="font" type="font/woff" crossorigin>
+        <title>Friendly House</title>
+    </head>
+    <body>
+        <section class="section-about">
+            <div class="container-about">
+                <h2 class="about__title">О приюте</h2>
+                <p class="about__description">Приют<q>Friendly House</q> - это целый комплекс<br>
+                    для бездомных и брошенных животных
+                </p>
+                <p class="about__description marginless">
+                    В приюте работает сплочённая команда, которая<br>
+                    занимаеться помощью бездомным животным<br>
+                    в течении многих лет. Мы заботимся о качестве<br>
+                    жизни наших подопечных и осуществляем<br>
+                    профессиональный медицинских уход.
+                </p>
+            </div>
+        </section>
+        <section class="section-description" >
+            <h1 class="title-color-orange">Как ты можешь нам помочь?</h1>
+            <div class="description-container">
+                <ol class="ol">
+                    <li class="ol__items">
+                        <p class="ol__title">Финансово</p>
+                        <p class="ol__description">
+                            Мы будем рады любым пожертвованиям.<br>
+                            Деньги пойдут на корм, лечение и уход<br>
+                            а также, на обустройство территории, где<br>
+                            обитают наши маленькие питомцы.<br>
+                        </p>
+                    </li>
+                    <li class="ol__items">
+                        <p class="ol__title">Стать волонтером</p>
+                        <p class="ol__description">
+                            Наш приют <q>Friendly House</q>привлекает волонтеров для<br>
+                            оказания помощи в самых разных форматах! От финансовой<br>
+                            помощи и набирающего популярность интелектуального<br>
+                            волонтерства до помощи руками.
+                        </p>
+                        <p class="ol__description margin">
+                            Нам всегда нужна помощь с выгулом подопечных, уборкой<br>
+                            помещений, привести в приют корм или медикаменты, помочь<br>
+                            с перевозкой животных в клиники, забрать и привезти вещи<br>
+                            и много всего другого. Мы всегда рады любой помощи,<br>
+                            присоединяйтесь к нашей дружной команде!
+                        </p>
+                    </li>
+                    <li class="ol__items">
+                        <p class="ol__title">Cтать опекуном</p>
+                        <p class="ol__description-bold">
+                            Хотите друга, но не можете взять домой?<br>
+                            Проект опеки - идеальноу решение!
+                        </p>
+                        <p class="ol__description">
+                            Взять под опеку животное, у которого еще нет<br>
+                            опекуна, - это как завести питомца, о котором всю<br>
+                            жизнь мечтал, но не мого себе этого позволить<br>
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+            <section class="section-form">
+                <div class="form-container">
+                    <div class="contacts">
+                        <h2 class="contacts__header-orange">Ты можешь нам помочь!</h2>
+                        <p class="contacts__description">Хочешь забрать питомца, стать волонтером, или опекуном?</p>
+                        <p class="contacts__descroption-bold-orange">Cвяжись с нами!</p>
+                        <ul class="contact-details">
+                            <li class="contact-details__phone"><a class="contact-details__text" href="tel:88493003957">8 (849) 300-39-57</a></li>
+                            <li class="contact-details__email"><a class="contact-details__text" href="mailto:FriendHouse@gmail.com">FriendlyHouse@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+                        <p class="header">Или оставь свои контакты и мы сами свяжимось с тобой!</p>
+                        <div class="form">
+                            <label class="phone">Номер телефона<br>
+                                <input class="phone__number" type="tel" name="telefon" required>
+                            </label>
+                            <label class="email">E-Mail<br>
+                                <input class="email__adress" type="email" name="emailadress" required>
+                            </label>                        
+                        </div>
+                        <button class="button" type="submit"><span></span>ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </section>
+    </body>
+</html>

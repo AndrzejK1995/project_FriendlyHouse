@@ -1,0 +1,55 @@
+.section-description {
+    padding-bottom: 167px;
+}
+.description-container{
+    padding-left: 155px;
+}
+.title-color-orange{
+    font-size: 50px;
+    font-family: "Comfortaa";
+    color: rgb(255, 138, 0);
+    text-align: center;
+    padding-bottom: 127px;
+}
+.ol{
+    list-style-type: none;
+    counter-reset: list;
+    margin: 0px;
+    padding: 0px;
+}
+.ol__items::before { 
+    font-family: "Comfortaa";
+    font-size: 50px;
+    color: #ff8a00;
+    content: counter(list); 
+    counter-increment: list; 
+    position: relative;
+    top: 45px;
+}
+.ol__title{
+    font-size: 35px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(40, 38, 38);
+    height: 35px;
+    text-align: left;
+    margin-bottom: 36px;
+    margin-left: 57px;
+}
+.ol__description{
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(40, 38, 38);
+    margin-left: 57px;
+    margin-bottom: 35px
+}
+.margin {
+    margin-bottom: 50px;
+}
+.ol__description-bold{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(40, 38, 38);
+    font-weight: 600;
+    margin-left: 57px;
+}
